@@ -1,0 +1,14 @@
+C:\Users\nikit\source\repos\AirLines\bin\Debug\AirLines.exe.config
+C:\Users\nikit\source\repos\AirLines\bin\Debug\AirLines.exe
+C:\Users\nikit\source\repos\AirLines\bin\Debug\AirLines.pdb
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.Properties.Resources.resources
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.csproj.GenerateResource.cache
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.exe
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.pdb
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.LoginForm.resources
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.AdministratorForm.resources
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.AddUserForm.resources
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.ChangeInfoForm.resources
+C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.UserForm.resources
