@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,23 @@ namespace AirLines
         public UserForm()
         {
             InitializeComponent();
+            FontsInProject();
+            ApplyFonts();
+        }
+        PrivateFontCollection font;
+        private void FontsInProject()
+        {
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("Fonts/TeXGyreAdventor-Regular.ttf");
+        }
+        private void ApplyFonts()
+        {
+            ExitButton.Font = new Font(font.Families[0], 8);
+            HelloLabel.Font = new Font(font.Families[0], 8);
+            TimeLable.Font = new Font(font.Families[0], 8);
+            CrashLabel.Font = new Font(font.Families[0], 8);
+            dataGridView1.Font = new Font(font.Families[0], 8);
+
         }
 
         private void GetTables()

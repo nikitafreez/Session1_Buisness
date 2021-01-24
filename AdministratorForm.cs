@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,35 @@ namespace AirLines
         public AdministratorForm()
         {
             InitializeComponent();
+            FontsInProject();
+            ApplyFonts();
+        }
+        PrivateFontCollection font;
+        private void FontsInProject()
+        {
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("Fonts/TeXGyreAdventor-Regular.ttf");
+        }
+        private void ApplyFonts()
+        {
+            AddUserButton.Font = new Font(font.Families[0], 8);
+            ExitButton.Font = new Font(font.Families[0], 8);
+            label1.Font = new Font(font.Families[0], 8);
+            OfficesComboBox.Font = new Font(font.Families[0], 8);
+            AcceptButton.Font = new Font(font.Families[0], 8);
+            ClearButton.Font = new Font(font.Families[0], 8);
+            UpdateDBButton.Font = new Font(font.Families[0], 8);
+            dataGridView1.Font = new Font(font.Families[0], 8);
+            ChangeButton.Font = new Font(font.Families[0], 8);
+            EnaDisButton.Font = new Font(font.Families[0], 8);
+            //UsernameLabel.Font = new Font(font.Families[0], 8);
+            //PasswordLabel.Font = new Font(font.Families[0], 8);
+            //UsernameBox.Font = new Font(font.Families[0], 8);
+            //PasswordBox.Font = new Font(font.Families[0], 8);
+            //LoginButton.Font = new Font(font.Families[0], 8);
+            //ExitButton.Font = new Font(font.Families[0], 8);
+            //label3.Font = new Font(font.Families[0], 8);
+            //label4.Font = new Font(font.Families[0], 8);
         }
 
         private void GetTables()

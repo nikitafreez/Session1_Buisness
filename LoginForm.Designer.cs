@@ -32,9 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.UsernameBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.UsernameLabel = new System.Windows.Forms.Label();
             this.LoginButton = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordBox = new System.Windows.Forms.TextBox();
             this.ExitButton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -64,34 +64,34 @@
             this.UsernameBox.Size = new System.Drawing.Size(311, 22);
             this.UsernameBox.TabIndex = 1;
             // 
-            // label1
+            // UsernameLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(116, 175);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 17);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Username:";
+            this.UsernameLabel.AutoSize = true;
+            this.UsernameLabel.Location = new System.Drawing.Point(116, 175);
+            this.UsernameLabel.Name = "UsernameLabel";
+            this.UsernameLabel.Size = new System.Drawing.Size(77, 17);
+            this.UsernameLabel.TabIndex = 2;
+            this.UsernameLabel.Text = "Username:";
             // 
             // LoginButton
             // 
             this.LoginButton.Location = new System.Drawing.Point(221, 245);
             this.LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(124, 25);
+            this.LoginButton.Size = new System.Drawing.Size(124, 46);
             this.LoginButton.TabIndex = 3;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
             this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
-            // label2
+            // PasswordLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(120, 210);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Password:";
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Location = new System.Drawing.Point(120, 210);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(73, 17);
+            this.PasswordLabel.TabIndex = 5;
+            this.PasswordLabel.Text = "Password:";
             // 
             // PasswordBox
             // 
@@ -106,7 +106,7 @@
             this.ExitButton.Location = new System.Drawing.Point(371, 245);
             this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(124, 25);
+            this.ExitButton.Size = new System.Drawing.Size(124, 46);
             this.ExitButton.TabIndex = 6;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(264, 272);
+            this.label3.Location = new System.Drawing.Point(264, 293);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 17);
             this.label3.TabIndex = 7;
@@ -130,7 +130,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(218, 272);
+            this.label4.Location = new System.Drawing.Point(218, 293);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 17);
             this.label4.TabIndex = 8;
@@ -145,10 +145,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.PasswordLabel);
             this.Controls.Add(this.PasswordBox);
             this.Controls.Add(this.LoginButton);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.UsernameLabel);
             this.Controls.Add(this.UsernameBox);
             this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -164,9 +164,9 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox UsernameBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label UsernameLabel;
         private System.Windows.Forms.Button LoginButton;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label PasswordLabel;
         private System.Windows.Forms.TextBox PasswordBox;
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Timer timer1;

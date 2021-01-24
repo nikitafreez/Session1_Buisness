@@ -46,7 +46,7 @@
             // 
             this.AddUserButton.Location = new System.Drawing.Point(1, 0);
             this.AddUserButton.Name = "AddUserButton";
-            this.AddUserButton.Size = new System.Drawing.Size(75, 23);
+            this.AddUserButton.Size = new System.Drawing.Size(75, 34);
             this.AddUserButton.TabIndex = 0;
             this.AddUserButton.Text = "Add user";
             this.AddUserButton.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             // 
             this.ExitButton.Location = new System.Drawing.Point(82, 0);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(75, 23);
+            this.ExitButton.Size = new System.Drawing.Size(75, 34);
             this.ExitButton.TabIndex = 1;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             // label2
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(1, 26);
+            this.label2.Location = new System.Drawing.Point(1, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(796, 2);
             this.label2.TabIndex = 4;
@@ -75,7 +75,7 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 75);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 93);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -88,7 +88,7 @@
             // 
             this.ChangeButton.Location = new System.Drawing.Point(30, 404);
             this.ChangeButton.Name = "ChangeButton";
-            this.ChangeButton.Size = new System.Drawing.Size(109, 23);
+            this.ChangeButton.Size = new System.Drawing.Size(109, 34);
             this.ChangeButton.TabIndex = 6;
             this.ChangeButton.Text = "Change Role";
             this.ChangeButton.UseVisualStyleBackColor = true;
@@ -98,7 +98,7 @@
             // 
             this.EnaDisButton.Location = new System.Drawing.Point(166, 404);
             this.EnaDisButton.Name = "EnaDisButton";
-            this.EnaDisButton.Size = new System.Drawing.Size(153, 23);
+            this.EnaDisButton.Size = new System.Drawing.Size(236, 34);
             this.EnaDisButton.TabIndex = 7;
             this.EnaDisButton.Text = "Enable/Disable Login";
             this.EnaDisButton.UseVisualStyleBackColor = true;
@@ -106,9 +106,9 @@
             // 
             // AcceptButton
             // 
-            this.AcceptButton.Location = new System.Drawing.Point(209, 38);
+            this.AcceptButton.Location = new System.Drawing.Point(220, 50);
             this.AcceptButton.Name = "AcceptButton";
-            this.AcceptButton.Size = new System.Drawing.Size(72, 23);
+            this.AcceptButton.Size = new System.Drawing.Size(88, 32);
             this.AcceptButton.TabIndex = 8;
             this.AcceptButton.Text = "Accept";
             this.AcceptButton.UseVisualStyleBackColor = true;
@@ -116,9 +116,9 @@
             // 
             // ClearButton
             // 
-            this.ClearButton.Location = new System.Drawing.Point(287, 38);
+            this.ClearButton.Location = new System.Drawing.Point(314, 50);
             this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(72, 23);
+            this.ClearButton.Size = new System.Drawing.Size(88, 31);
             this.ClearButton.TabIndex = 9;
             this.ClearButton.Text = "Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
@@ -128,7 +128,7 @@
             // 
             this.OfficesComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.OfficesComboBox.FormattingEnabled = true;
-            this.OfficesComboBox.Location = new System.Drawing.Point(82, 38);
+            this.OfficesComboBox.Location = new System.Drawing.Point(93, 51);
             this.OfficesComboBox.Name = "OfficesComboBox";
             this.OfficesComboBox.Size = new System.Drawing.Size(121, 24);
             this.OfficesComboBox.TabIndex = 2;
@@ -136,7 +136,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 41);
+            this.label1.Location = new System.Drawing.Point(27, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 17);
             this.label1.TabIndex = 3;
@@ -144,9 +144,9 @@
             // 
             // UpdateDBButton
             // 
-            this.UpdateDBButton.Location = new System.Drawing.Point(665, 38);
+            this.UpdateDBButton.Location = new System.Drawing.Point(665, 51);
             this.UpdateDBButton.Name = "UpdateDBButton";
-            this.UpdateDBButton.Size = new System.Drawing.Size(108, 23);
+            this.UpdateDBButton.Size = new System.Drawing.Size(108, 31);
             this.UpdateDBButton.TabIndex = 10;
             this.UpdateDBButton.Text = "Update DB";
             this.UpdateDBButton.UseVisualStyleBackColor = true;

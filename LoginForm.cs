@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,28 @@ namespace AirLines
         public LoginForm()
         {
             InitializeComponent();
+            FontsInProject();
+            ApplyFonts();
         }
+        PrivateFontCollection font;
+        private void FontsInProject()
+        {
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("Fonts/TeXGyreAdventor-Regular.ttf");
+        }
+        private void ApplyFonts()
+        {
+            UsernameLabel.Font = new Font(font.Families[0], 8);
+            PasswordLabel.Font = new Font(font.Families[0], 8);
+            UsernameBox.Font = new Font(font.Families[0], 8);
+            PasswordBox.Font = new Font(font.Families[0], 8);
+            LoginButton.Font = new Font(font.Families[0], 8);
+            ExitButton.Font = new Font(font.Families[0], 8);
+            label3.Font = new Font(font.Families[0], 8);
+            label4.Font = new Font(font.Families[0], 8);
+        }
+
+
 
         int loginStatus = 0;
         int totalSeconds = 10;

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,7 +54,7 @@ namespace AirLines
                 SqlCommand command3 = new SqlCommand($"SELECT LastName FROM dbo.Users WHERE ID='{AdministratorForm.IDPersonToChange}'", connection);
                 LastNameBox.Text = command3.ExecuteScalar().ToString();
                 SqlCommand command4 = new SqlCommand($"SELECT RoleID FROM dbo.Users WHERE ID='{AdministratorForm.IDPersonToChange}'", connection);
-                if(Convert.ToInt32(command4.ExecuteScalar()) == 1)
+                if (Convert.ToInt32(command4.ExecuteScalar()) == 1)
                 {
                     AdminRadio.Checked = true;
                 }
@@ -62,7 +63,7 @@ namespace AirLines
                     UserRadio.Checked = true;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -70,6 +71,40 @@ namespace AirLines
             {
                 connection.Close();
             }
+
+            FontsInProject();
+            ApplyFonts();
+        }
+        PrivateFontCollection font;
+        private void FontsInProject()
+        {
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("Fonts/TeXGyreAdventor-Regular.ttf");
+        }
+        private void ApplyFonts()
+        {
+            label1.Font = new Font(font.Families[0], 8);
+            label2.Font = new Font(font.Families[0], 8);
+            label3.Font = new Font(font.Families[0], 8);
+            label4.Font = new Font(font.Families[0], 8);
+            label5.Font = new Font(font.Families[0], 8);
+            EmailBox.Font = new Font(font.Families[0], 8);
+            FirstNameBox.Font = new Font(font.Families[0], 8);
+            LastNameBox.Font = new Font(font.Families[0], 8);
+            OfficesComboBox.Font = new Font(font.Families[0], 8);
+            UserRadio.Font = new Font(font.Families[0], 8);
+            AdminRadio.Font = new Font(font.Families[0], 8);
+            SaveButton.Font = new Font(font.Families[0], 8);
+            CancelButton.Font = new Font(font.Families[0], 8);
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ChangeInfoForm_Load(object sender, EventArgs e)
+        {
 
         }
     }

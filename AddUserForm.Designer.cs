@@ -131,7 +131,7 @@
             this.birthDatePicker.Location = new System.Drawing.Point(138, 151);
             this.birthDatePicker.MinDate = new System.DateTime(1920, 1, 1, 0, 0, 0, 0);
             this.birthDatePicker.Name = "birthDatePicker";
-            this.birthDatePicker.Size = new System.Drawing.Size(146, 22);
+            this.birthDatePicker.Size = new System.Drawing.Size(179, 22);
             this.birthDatePicker.TabIndex = 27;
             // 
             // label6
@@ -145,9 +145,9 @@
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(102, 224);
+            this.SaveButton.Location = new System.Drawing.Point(91, 224);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(72, 23);
+            this.SaveButton.Size = new System.Drawing.Size(89, 33);
             this.SaveButton.TabIndex = 29;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -155,9 +155,9 @@
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(180, 224);
+            this.CancelButton.Location = new System.Drawing.Point(186, 224);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(72, 23);
+            this.CancelButton.Size = new System.Drawing.Size(89, 33);
             this.CancelButton.TabIndex = 30;
             this.CancelButton.Text = "Cancel";
             this.CancelButton.UseVisualStyleBackColor = true;
@@ -184,6 +184,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AddUserForm";
             this.Text = "AddUserForm";
+            this.Load += new System.EventHandler(this.AddUserForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

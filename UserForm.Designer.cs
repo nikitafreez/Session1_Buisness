@@ -48,13 +48,13 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(743, 305);
+            this.dataGridView1.Size = new System.Drawing.Size(743, 277);
             this.dataGridView1.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(2, 27);
+            this.label2.Location = new System.Drawing.Point(2, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(796, 2);
             this.label2.TabIndex = 8;
@@ -72,7 +72,7 @@
             // 
             this.ExitButton.Location = new System.Drawing.Point(2, 1);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(75, 23);
+            this.ExitButton.Size = new System.Drawing.Size(75, 39);
             this.ExitButton.TabIndex = 6;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;

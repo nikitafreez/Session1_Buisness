@@ -12,3 +12,17 @@ C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.AdministratorForm.resour
 C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.AddUserForm.resources
 C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.ChangeInfoForm.resources
 C:\Users\nikit\source\repos\AirLines\obj\Debug\AirLines.UserForm.resources
+D:\C#.Programs\AirLines\bin\Debug\AirLines.exe.config
+D:\C#.Programs\AirLines\bin\Debug\AirLines.exe
+D:\C#.Programs\AirLines\bin\Debug\AirLines.pdb
+D:\C#.Programs\AirLines\obj\Debug\AirLines.csprojAssemblyReference.cache
+D:\C#.Programs\AirLines\obj\Debug\AirLines.AddUserForm.resources
+D:\C#.Programs\AirLines\obj\Debug\AirLines.AdministratorForm.resources
+D:\C#.Programs\AirLines\obj\Debug\AirLines.ChangeInfoForm.resources
+D:\C#.Programs\AirLines\obj\Debug\AirLines.LoginForm.resources
+D:\C#.Programs\AirLines\obj\Debug\AirLines.Properties.Resources.resources
+D:\C#.Programs\AirLines\obj\Debug\AirLines.UserForm.resources
+D:\C#.Programs\AirLines\obj\Debug\AirLines.csproj.GenerateResource.cache
+D:\C#.Programs\AirLines\obj\Debug\AirLines.csproj.CoreCompileInputs.cache
+D:\C#.Programs\AirLines\obj\Debug\AirLines.exe
+D:\C#.Programs\AirLines\obj\Debug\AirLines.pdb

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,8 +45,33 @@ namespace AirLines
             OfficesComboBox.DataSource = dataSet.Tables["dbo.Offices"];
             OfficesComboBox.DisplayMember = "Title";
             OfficesComboBox.ValueMember = "ID";
-        }
 
+            FontsInProject();
+            ApplyFonts();
+        }
+        PrivateFontCollection font;
+        private void FontsInProject()
+        {
+            this.font = new PrivateFontCollection();
+            this.font.AddFontFile("Fonts/TeXGyreAdventor-Regular.ttf");
+        }
+        private void ApplyFonts()
+        {
+            label1.Font = new Font(font.Families[0], 8);
+            label2.Font = new Font(font.Families[0], 8);
+            label3.Font = new Font(font.Families[0], 8);
+            label4.Font = new Font(font.Families[0], 8);
+            label5.Font = new Font(font.Families[0], 8);
+            label6.Font = new Font(font.Families[0], 8);
+            EmailBox.Font = new Font(font.Families[0], 8);
+            FirstNameBox.Font = new Font(font.Families[0], 8);
+            LastNameBox.Font = new Font(font.Families[0], 8);
+            PasswordBox.Font = new Font(font.Families[0], 8);
+            birthDatePicker.Font = new Font(font.Families[0], 8);
+            OfficesComboBox.Font = new Font(font.Families[0], 8);
+            SaveButton.Font = new Font(font.Families[0], 8);
+            CancelButton.Font = new Font(font.Families[0], 8);
+        }
         private void SaveButton_Click(object sender, EventArgs e)
         {
             bool allCool = true;
@@ -140,6 +166,11 @@ namespace AirLines
         private void CancelButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void AddUserForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

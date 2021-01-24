@@ -45,18 +45,19 @@
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(187, 224);
+            this.CancelButton.Location = new System.Drawing.Point(191, 224);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(72, 23);
+            this.CancelButton.Size = new System.Drawing.Size(95, 33);
             this.CancelButton.TabIndex = 44;
             this.CancelButton.Text = "Cancel";
             this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(109, 224);
+            this.SaveButton.Location = new System.Drawing.Point(90, 224);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(72, 23);
+            this.SaveButton.Size = new System.Drawing.Size(95, 33);
             this.SaveButton.TabIndex = 43;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -178,6 +179,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ChangeInfoForm";
             this.Text = "ChangeInfoForm";
+            this.Load += new System.EventHandler(this.ChangeInfoForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
